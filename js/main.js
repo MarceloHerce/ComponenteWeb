@@ -6,7 +6,7 @@ Hacer en un archivo css los estilos para que el componente se vea bonito. Añadi
 Añadirle a cada componente un evento on click que, al pinchar en su imagen, se le añada o quite la clase "disabled" que 
 será una clase con opacidad 0.3.
 
-Una vez hagáis esto con js vanilla, investigar en la documentación el concepto "web components" y la librería litelement 
+Una vez hagáis esto con js vanilla, investigar en la documentación el concepto "web components" y la     
 (usad importad el cdn desde unpkg, no se permite el uso de node)
 */
 const  generateProp = (props) => `<picture><img src=https://randomuser.me/api/portraits/${props.categoria}/${props.id}.jpg class=avatar ><h4>${props.nombre}<h4></picture>`;
